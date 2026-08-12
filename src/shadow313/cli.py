@@ -7,7 +7,7 @@ from shadow313 import __version__
 from shadow313.core.kernel import Kernel
 
 
-def main():
+def main() -> None:
     """Main CLI entry point."""
     parser = argparse.ArgumentParser(
         prog="shadow313",
