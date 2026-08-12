@@ -52,7 +52,7 @@ class Kernel:
         """
         self._handlers[namespace] = handler
 
-    def dispatch(self, namespace: str, **kwargs) -> Any:
+    def dispatch(self, namespace: str, **kwargs: Any) -> Any:
         """Dispatch a command to the registered handler.
 
         Args:
