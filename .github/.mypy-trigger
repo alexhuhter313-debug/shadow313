@@ -1,0 +1,4 @@
+# CI trigger file
+# This file is a no-op used to trigger CI so the mypy checks run after recent typing fixes.
+
+# Do not remove — created by copilot to run `mypy` in CI.
