@@ -1,1 +1,1 @@
-"""Shadow313 tools — specialized security utilities."""
+"""Tools package for Shadow313."""

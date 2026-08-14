@@ -1,1 +1,1 @@
-"""Shadow313 modules — 28 modular capabilities."""
+"""Modules package for Shadow313."""

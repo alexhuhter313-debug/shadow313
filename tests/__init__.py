@@ -1,1 +1,1 @@
-"""Shadow313 test suite."""
+"""Test suite for Shadow313."""
