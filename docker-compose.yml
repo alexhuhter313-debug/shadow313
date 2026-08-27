@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  fortress:
+    build: .
+    container_name: aegisq-fortress
+    restart: unless-stopped
+    volumes:
+      - ./config:/app/config
+      - ./modules:/app/modules
+    networks:
+      - aegisq-net
+
+networks:
+  aegisq-net:
+    driver: bridge
